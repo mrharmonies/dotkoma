@@ -7,7 +7,7 @@ cd to the src directory and run gcc
 cd src
 gcc -o dk *.c
 ```
-this will generate an executable file call `dk`, short for DotKoma.
+this will generate an executable file called `dk`, short for DotKoma.
 
 ## running dotkoma
 to use dotkoma, just run the executable followed by the filename
@@ -31,4 +31,26 @@ you can also run `dk` as shell script by adding the first line of dotkoma file w
 modify the permission of this file to allow execution. Now to execute `test.dk` just run this command
 ```
 ./test.dk
+```
+## hello world in dotkoma
+```
+.,Hello World.,
+```
+## more example
+print list of file in current folder
+```
+#!/usr/local/bin/dk
+.,
+<html>
+<title>Files in folder</title>
+<body>
+<h1>File list</h1>
+<h2>
+.,
+.sh ls
+.,
+</h2>
+</body>
+</html>
+.,
 ```
