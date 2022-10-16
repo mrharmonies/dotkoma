@@ -1,5 +1,5 @@
 # dotkoma
-dotkoma is a simple programming language.
+dotkoma is a simple interpreter for dotkoma programming language.
 
 ## compile from source
 cd to the src directory and run gcc
