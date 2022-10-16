@@ -45,11 +45,11 @@ print list of file in current folder
 <title>Files in folder</title>
 <body>
 <h1>File list</h1>
-<pre>
+<h2><pre>
 .,
 .sh ls
 .,
-</pre>
+</pre></h2>
 </body>
 </html>
 .,
