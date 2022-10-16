@@ -64,3 +64,23 @@ open `list.html` with your favorite web browser
 included in this repository is the `dotkoma.xml` file in `npp-UDL` folder. This is a syntax highligther file (Notepad++ XML User Defined Language) for DotKoma language. Sample screenshot:
 
 ![image](https://scontent-kut2-2.xx.fbcdn.net/v/t39.30808-6/307712624_10225536774900226_5970646952773867353_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=oJIH4SyPugwAX_cKBbA&_nc_ht=scontent-kut2-2.xx&oh=00_AT8ISeQkTcxsUa48RJkTOHYJrk9zrRCEtxIouO9Cy_NH1w&oe=6351EA1C)
+
+# license
+  Copyright (C) 2022 Mohd Kholid Yaacob (<http://mrharmonies.blogspot.com>)
+  
+  This source is free software; you can redistribute it and/or modify it under
+  the terms of the GNU General Public License as published by the Free
+  Software Foundation; either version 2 of the License, or (at your option)
+  any later version.
+  
+  
+  This code is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+  details.
+  
+  
+  A copy of the GNU General Public License is available on the World Wide Web
+  at <http://www.gnu.org/copyleft/gpl.html>. You can also obtain it by writing
+  to the Free Software Foundation, Inc., 51 Franklin Street - Fifth Floor,
+  Boston, MA 02110-1335, USA. 
