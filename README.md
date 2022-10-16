@@ -37,7 +37,7 @@ modify the permission of this file to allow execution. Now to execute `test.dk` 
 .,Hello World.,
 ```
 ## more example
-print list of file in current folder
+print list of file in current folder. save as `list.dk`
 ```
 #!/usr/local/bin/dk
 .,
@@ -54,3 +54,8 @@ print list of file in current folder
 </html>
 .,
 ```
+run with this command
+```
+./list.dk > list.html
+```
+open `list.html` with your favorite web browser
