@@ -3,7 +3,7 @@ dotkoma is a simple interpreter for dotkoma programming language.
 
 ## dotkoma syntax structure (EBNF)
 ```
-dotkoma  = ["#!" {ANY} nl]                        // shebang compatibility
+dotkoma  = ["#!" {ANY} newline]                   // shebang compatibility
            { (instruct) | (heredoc newlline) } .  // series of instructions or heredoc
            
 heredoc  = ".,"  {ANY} ".," .                     // heredoc caged using dot and comma
