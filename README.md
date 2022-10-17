@@ -1,6 +1,15 @@
 # dotkoma
 dotkoma is a simple interpreter for dotkoma programming language.
 
+## dotkoma syntax structure (EBNF)
+```
+dotkoma  = ["#!" {ANY} nl]                        // shebang compatibility
+           { (instruct) | (heredoc newlline) } .  // series of instructions or heredoc
+           
+heredoc  = ".,"  {ANY} ".," .                     // heredoc caged using dot and comma
+
+instruct = ".sh" ident {ANY} newline.             // shell instruction starts with ".sh", end with newline
+```
 ## compile from source
 cd to the src directory and run gcc
 ```
