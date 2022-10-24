@@ -4,6 +4,8 @@ dotkoma is a simple interpreter for dotkoma programming language.
 ```
 .,Hello World.,
 ```
+## demo screenshot
+![image](https://github.com/mrharmonies/dotkoma/blob/main/images/sc1.png)
 ## dotkoma syntax structure (EBNF)
 ```
 dotkoma  = ["#!" {ANY} newline]                   // shebang compatibility
