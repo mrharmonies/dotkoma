@@ -1,6 +1,9 @@
 # dotkoma
 dotkoma is a simple interpreter for dotkoma programming language.
-
+## programming hello world in dotkoma
+```
+.,Hello World.,
+```
 ## dotkoma syntax structure (EBNF)
 ```
 dotkoma  = ["#!" {ANY} newline]                   // shebang compatibility
@@ -10,7 +13,7 @@ heredoc  = ".,"  {ANY} ".," .                     // heredoc caged using dot and
 
 instruct = ".sh" ident {ANY} newline.             // shell instruction starts with ".sh", end with newline
 ```
-## compile from source
+## compiling dotkoma from source
 cd to the src directory and run gcc
 ```
 cd src
@@ -40,10 +43,6 @@ you can also run `dk` as shell script by adding the first line of dotkoma file w
 modify the permission of this file to allow execution. Now to execute `test.dk` just run this command
 ```
 ./test.dk
-```
-## hello world in dotkoma
-```
-.,Hello World.,
 ```
 ## more example
 print list of file in current folder. save as `list.dk`
