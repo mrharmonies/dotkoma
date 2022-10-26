@@ -12,6 +12,9 @@ From my own experience, its very frustrating when i'm using soft key to do progr
 ```
 ## demo screenshot
 ![image](https://github.com/mrharmonies/dotkoma/blob/main/images/sc1.png)
+
+![image](https://github.com/mrharmonies/dotkoma/blob/main/images/sc2.png)
+
 ## dotkoma syntax structure (EBNF)
 ```
 dotkoma  = ["#!" {ANY} newline]                   // shebang compatibility
