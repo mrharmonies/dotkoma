@@ -1,7 +1,8 @@
 # dotkoma
 dotkoma is a simple interpreter for dotkoma programming language.
-## why i create dotkoma?
-From my own experience, its very frustrating when i'm using soft key to do programming on my android device. To adapt on small screen, Android soft keyboard hides most symbol from the main user interface. For example, if i want to add % symbol, i have to tap on the numbers button ("?123" button) and only after that the button for % symbol appears. The only 2 symbol appear on the main soft key interface, the "." and ",", hence the name, DotKoma. Its easier for me to type on my mobile device using these 2 symbols and the pair (the dot and the comma) is rarely used together and makes a good syntax token for caging free text.
+
+## why i create dotkoma programming language?
+From my own experience, its very frustrating when i'm using soft key to do programming on my mobile android device. To adapt on small screen, Android soft keyboard hides most symbol from main keyboard UI. For example, if i want to add `%` symbol, i have to tap on the numbers button (`?123` button) and only after that the button for `%` symbol will appear. The only 2 symbols appear on the main soft key interface are `.` and `,`, hence the name, DotKoma. Its easier for me to type on my mobile device using these 2 symbols and the pair (the dot and the comma) are rarely used together and makes a good syntax token for caging free text.
 
 ![image](https://github.com/mrharmonies/dotkoma/blob/main/images/softkey.jpg)
 
